@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="datetime:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="datetime.jar">
+      <element id="module-output" name="Task_1_11_number_2" />
+    </root>
+  </artifact>
+</component>
