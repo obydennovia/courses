@@ -7,4 +7,4 @@ public class Main {
         arithmetic.maxAB();
         arithmetic.minAB();
     }
-}
+}ф

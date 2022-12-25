@@ -11,6 +11,5 @@ public class Main {
         basket.print("Apple");
         System.out.println();
         System.out.println("Вес двух товаров в корзине: " + basket.getTotalWeight());
-
     }
 }
