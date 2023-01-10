@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22d797f7-a8b4-4a70-9a54-50cc9e5d429b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arithmetic/Arithmetic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arithmetic/src/Arithmetic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Arithmetic/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../06 Objects and classes. Part 3. Static, constants and enum/Task_6_8/Basket/Basket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
