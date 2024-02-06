@@ -25,6 +25,7 @@ for num in range(number):
     if num % i == 0:
       break
   else:
-    count += 1
+    if num > 1:
+      count += 1
 
 print("Количество простых чисел в последовательности: ", count)
