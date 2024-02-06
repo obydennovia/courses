@@ -28,19 +28,19 @@ def rock_paper_scissors():
   print("Для выхода в главное меню введите '0'")
   print()
   #Игра "Камень, ножницы, бумага"
-  choise = input("Ваш выбор: ")
+  choise = input("Ваш выбор: ").lower()
   if choise == "0":
     print()
     mainMenu()
-  elif choise == "камень" or choise == "Камень":
+  elif choise == "камень":
     print("Ничья")
     print()
     rock_paper_scissors()
-  elif choise == "ножницы" or choise == "Ножницы":
+  elif choise == "ножницы":
     print("Вы выиграли")
     print()
     rock_paper_scissors()
-  elif choise == "бумага" or choise == "Бумага":
+  elif choise == "бумага":
     print("Вы проиграли")
     print()
     rock_paper_scissors()
