@@ -5,10 +5,9 @@ summ = 0
 
 detail = input("Название детали: ")
 
-for i in shop:
-  if i[0] == detail:
-    count += 1
-    summ += i[1]
+for i_detail, i_cost in shop:
+  if i_detail == detail:
+    count, summ = count + 1, summ + i_cost
 
 print("Количество деталей", count)
 print("Общая стоимость", summ)
