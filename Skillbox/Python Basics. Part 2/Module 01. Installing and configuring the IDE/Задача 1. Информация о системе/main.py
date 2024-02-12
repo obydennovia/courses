@@ -4,10 +4,11 @@
 # Результат: Создан файл «os_info.txt» с информацией об операционной системе и версии Python.
 
 def nod(number):
-  for i in range(2, number + 1):
-    if a % i == 0:
-      print("Наименьший делитель:", i)
-      break
+    for i in range(2, number + 1):
+        if a % i == 0:
+            print("Наименьший делитель:", i)
+            break
+
 
 a = int(input("Введите число: "))
 

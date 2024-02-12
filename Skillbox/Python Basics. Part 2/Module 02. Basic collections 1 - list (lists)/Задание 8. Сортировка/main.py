@@ -5,6 +5,7 @@ def selection_sort(nums):
                 nums[curr], nums[i_mn] = nums[i_mn], nums[curr]
     return nums
 
+
 nums = [4, 9, 7, 6, 3, 2]
 
 print(selection_sort(nums))

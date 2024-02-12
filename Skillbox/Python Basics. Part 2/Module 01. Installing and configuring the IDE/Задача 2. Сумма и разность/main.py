@@ -11,21 +11,24 @@
 # Разность суммы и количества цифр: 2
 
 def summ(number):
-  summ = 0
-  while number > 0:
-    summ = summ + number % 10
-    number //= 10
-  return summ
+    summ = 0
+    while number > 0:
+        summ = summ + number % 10
+        number //= 10
+    return summ
+
 
 def number_of_digits(number):
-  count = 0
-  while number > 0:
-    count += 1
-    number //= 10
-  return count
+    count = 0
+    while number > 0:
+        count += 1
+        number //= 10
+    return count
+
 
 def difference(a):
-  return summ(a) - number_of_digits(a)
+    return summ(a) - number_of_digits(a)
+
 
 a = int(input("Введите число: "))
 

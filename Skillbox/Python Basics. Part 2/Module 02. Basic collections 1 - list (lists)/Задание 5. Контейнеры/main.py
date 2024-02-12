@@ -4,6 +4,7 @@ def check_weight(weight):
         return False
     return True
 
+
 container = []
 
 nums = int(input("Количество контейнеров: "))
@@ -23,5 +24,5 @@ if check_weight(new_weight):
     weight_index = 0
     for i in range(len(container) - 1):
         if new_weight <= container[i]:
-            weight_index = i + 1 # вставить новый контейнер после текущего индекса
+            weight_index = i + 1  # вставить новый контейнер после текущего индекса
     print("\nНомер, который получит новый контейнер:", weight_index + 1)

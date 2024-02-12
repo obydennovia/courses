@@ -13,10 +13,11 @@
 # Наименьший делитель, отличный от единицы: 17
 
 def least_divisor(number):
-  for i in range(2, number + 1):
-    if a % i == 0:
-      print("Наименьший делитель:", i)
-      break
+    for i in range(2, number + 1):
+        if a % i == 0:
+            print("Наименьший делитель:", i)
+            break
+
 
 a = int(input("Введите число: "))
 

@@ -7,6 +7,7 @@ def is_polindrome(num_list):
     else:
         return False
 
+
 nums = []
 new_nums = []
 answer = []
