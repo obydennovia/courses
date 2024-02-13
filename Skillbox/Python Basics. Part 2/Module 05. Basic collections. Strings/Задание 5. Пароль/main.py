@@ -7,8 +7,9 @@ def password_length(password):
 
 def password_digit(password):
     count = 0
+    digits = "0123456789"
     for symbol in password:
-        if symbol.isdigit():
+        if symbol in digits:
             count += 1
     if count >= 3:
         return True
@@ -24,7 +25,7 @@ def password_upper_letters(password):
 
 
 def password_check(password):
-    if password_length(password) and password_upper_letters(password) and password_upper_letters(password):
+    if password_length(password) and password_digit(password) and password_upper_letters(password):
         print("Это надёжный пароль.")
         return True
     else:
