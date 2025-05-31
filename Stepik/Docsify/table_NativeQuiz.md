@@ -1,6 +1,1 @@
-# Заголовок
-## Заголовок 2
-### Заголовок 3
-#### Заголовок 4
-##### Заголовок 5
-###### Заголовок 6
+![alt text](https://gitlab.com/francoisjacquet/rosariosis/raw/mobile/assets/themes/WPadmin/logo.png "Logo Title Text 1")
